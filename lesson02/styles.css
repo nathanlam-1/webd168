@@ -1,0 +1,14 @@
+article a {
+    color: green /* Styled CSS link to green */
+}
+
+h3 {
+    font-style: italic; /* Italic styling to <h3> */
+}
+
+.not-me {
+    color: #ff0000;
+    font-family: "Varela Round", serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
