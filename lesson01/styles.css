@@ -1,0 +1,22 @@
+body {
+    background-color:lightblue
+}
+
+
+h1 {
+    font-family: Trebuchet MS, sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+li {
+    font-family: Helvetica, sans-serif;
+}
