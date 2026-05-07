@@ -1,0 +1,29 @@
+/* Modern CSS Feature #1: CSS variables */
+:root {
+    --primary-bg: lightblue;
+    --heading-font: "Trebuchet MS", sans-serif;
+}
+
+img {
+    display: block;
+    margin: auto
+}
+
+/* Modern CSS Feature #2: clamp () for responsive text */
+h1 {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-family: var(--heading-font);
+}
+
+h2 {
+    font-size: clamp(2rem, 3vw, 3.5rem);
+}
+/* Modern CSS Feature #3: :is() selector */
+:is(h2, h3) {
+    font-family: Arial, sans-serif;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+body {
+    background-color: var(--primary-bg);
+}
